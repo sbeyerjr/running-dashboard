@@ -171,5 +171,5 @@ h6 {
 }
 
 .hide-nav {
-  visibility: hidden;
+  display: none;
 }
