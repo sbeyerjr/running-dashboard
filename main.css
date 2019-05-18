@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(54, 19, 108, 1) 0%,
+    rgba(73, 126, 176, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 1.1em;
+  color: #34495e;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: white;
+  font-size: 2em;
+  margin-top: -20px;
+}
+
+.road,
+.stopwatch,
+.weight {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.road {
+  background-image: url("http://stevenbeyerjr.com/img/road-solid.png");
+  background-size: 155px 136px;
+}
+
+.stopwatch {
+  background-image: url("http://stevenbeyerjr.com/img/stopwatch.png");
+  background-size: 115px 125px;
+}
+
+.weight {
+  background-image: url("http://stevenbeyerjr.com/img/weight.png");
+  background-size: 110px 110px;
+}
+
+.logo {
+  font-family: "Bitter", serif;
+  font-size: 2em;
+}
+
+.add-btn {
+  border-radius: 5px;
+}
+
+.bg-stats {
+  background-color: rgba(245, 246, 250, 0.2);
+  color: white;
+  border-radius: 10px;
+}
+
+.bg-purple {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(118, 33, 160, 1) 0%,
+    rgba(175, 98, 208, 1) 100%
+  );
+}
+
+.name {
+  color: white;
+  font-size: 1em;
+}
+
+.grey-link {
+  color: #c5c0ca;
+}
+
+.square-nav {
+  border-radius: 10px;
+  padding: 4px;
+  text-align: center;
+  background-color: #ffffff;
+  height: 120px;
+  width: 120px;
+}
+
+.square-nav-text {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.profile-img {
+  max-width: 75px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-color: #ddd;
+  border: 2px solid #cfd8dc;
+}
+.map {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.googlemap {
+  width: 100%;
+  height: 100%;
+}
+
+.notification {
+  color: white;
+  font-size: 1.4em;
+}
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 90px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 0.5em;
+}
+
+.badge-msg {
+  position: absolute;
+  top: 20px;
+  right: 90px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 0.5em;
+  padding: 2px;
+}
+.footer-bar {
+  background-color: #f5f6fa;
+  font-size: 0.9em;
+  width: 100%;
+  padding: 10px;
+}
+.selected {
+  border: 3px solid #c5adff;
+}
+.workouts {
+  background-color: #ecf0f1;
+  max-height: 300px;
+}
+.wk-header {
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.wkout-card {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.wk-text {
+  font-size: 1em;
+  color: #34495e;
+}
+
+.graph {
+  background-color: #ffffff;
+  padding: 10px;
+}
