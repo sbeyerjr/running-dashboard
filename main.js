@@ -39,3 +39,10 @@ var options = {
 var chart = new ApexCharts(document.querySelector("#chart"), options);
 
 chart.render();
+
+$(".navbar-toggler").click(function() {
+  $(".nav-item").toggleClass("hide-nav");
+});
+$(".navbar-toggler").click(function() {
+  $("#myNavbar7").toggleClass("bg-light");
+});
