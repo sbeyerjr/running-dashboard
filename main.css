@@ -124,22 +124,11 @@ h6 {
 .notification {
   font-size: 1.3em;
 }
+
 .badge {
-  position: absolute;
-  top: 20px;
-  right: 90px;
-  border-radius: 50%;
-  background: red;
-  color: white;
   font-size: 0.5em;
 }
 
-.badge-msg {
-  border-radius: 50%;
-  background: red;
-  color: white;
-  font-size: 0.5em;
-}
 .footer-bar {
   background-color: #f5f6fa;
   font-size: 0.9em;
