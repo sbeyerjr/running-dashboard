@@ -88,7 +88,25 @@ h6 {
 }
 
 .grey-link {
-  color: #c5c0ca;
+  color: #8395a7;
+}
+
+.grey-link:hover {
+  color: #ffffff;
+}
+
+.white-link {
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+.white-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.tos {
+  margin-top: -15px;
 }
 
 .square-nav {
@@ -96,8 +114,11 @@ h6 {
   padding: 4px;
   text-align: center;
   background-color: #ffffff;
-  height: 120px;
-  width: 120px;
+}
+
+.square-nav:hover {
+  background-color: #576574;
+  color: #ffffff;
 }
 
 .square-nav-text {
